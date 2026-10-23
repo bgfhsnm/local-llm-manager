@@ -1,0 +1,26 @@
+{
+  "llama_root": "D:\\AI\\llama.cpp",
+  "scan_dirs": [
+    "D:\\AI\\models"
+  ],
+  "models": [
+    {
+      "path": "D:\\AI\\models\\Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf",
+      "port": 8080,
+      "ctx": 32768,
+      "ncmoe": 28,
+      "ngl": 99,
+      "extra": "",
+      "name": "Qwen3.6-35B-A3B",
+      "file_gb": 20.82,
+      "arch": "qwen35moe",
+      "layers": 40,
+      "experts": 256,
+      "is_moe": true,
+      "ctx_train": 262144,
+      "supported": true,
+      "why": ""
+    }
+  ],
+  "last_selected": "D:\\AI\\models\\Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf"
+}
